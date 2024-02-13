@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148882948.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pie-de-pagina{
+    text-align: right;
+    
+}
+
+table{
+    margin: auto;
+}
+
+form{
+    background-color: rgb(193, 212, 212);
+    width: 350px;
+    background-attachment: fixed;
+    padding: 30px;
+    margin: auto;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 2);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+}
+.form-registro label{
+    margin: 0.5rem;
+}
+.form-registro input{
+    margin: 0.5rem;
+    background-attachment: fixed;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 2);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+}
+
+.content{
+    backdrop-filter: blur(20px);
+}
+ 
+.btn-enviar{
+    text-align: center;
+    cursor:pointer;
+}
+.enviar{
+    cursor:pointer;
+    padding: auto;
+    width: 50%;
+    height: 30%;
+
+}
+
+.enviar:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.btn-enlace{
+    margin: 0.5rem;
+    background-attachment: fixed;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 2);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.btn-enlace:hover{
+    background-color: rgba(221, 218, 218, 0.925);
+}

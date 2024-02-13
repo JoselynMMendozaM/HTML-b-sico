@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="encabezado">
+        <p>HTML básico <br>
+            INTECAP – CENTRO TICS
+        </p>
+
+        <h1>ELEMENTOS MULTIMEDIA</h1>
+
+    </div>
+    <div class="content">
+        <hr>
+        <div>
+            <table style="margin: auto; width: 60%">
+                <tr>
+                    <td> <a href="index.html"><input class="btn-enlace" type="button" value="ELEMENTOS MULTIMEDIA"></a></td>
+                    <td><a href="tablas.html"><input class="btn-enlace" type="button" value="TABLAS"></a></td>
+                    <td><a href="listas.html"><input class="btn-enlace" type="button" value="LISTAS"></a></td>
+                    <td><a href="formularios.html"><input class="btn-enlace" type="button" value="FORMULARIOS"></a></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <form class="form-registro" >
+                <h1>Formulario de registro</h1>
+                <hr>
+                <p>
+                    <label for="txt_name">Nombre:</label>
+                    <input type="text" id="txt_name" name="txt_name" placeholder="Ingrese su Nombre"  style="width: 320px";>
+                </p>
+               
+                <p>
+                    <label for="txt_apellido">Apellidos:</label>
+                    <input type="text" id="txt_apellido" name="txt_apellido" placeholder="Ingrese su Apellido" style="width: 320px;";>
+                </p>
+                
+                <p>
+                    <label for="txt_name">Sexo:</label>
+                    <input type="radio" value="M" name="genero" style="cursor: pointer;">Hombre
+                    <input type="radio" value="F" name="genero" style="cursor: pointer;">Mujer
+                </p>
+
+                <p>
+                    <label for="">Correo Electrónico</label>
+                    <input type="email" placeholder="Ingrese su Correo"  style="width: 330px;">
+                </p>
+    
+
+                <p>
+                    <label for="lst_departamento">Nivel Académico:</label>
+                    <br>
+                    <select name="lst:lst_departamento" id="lst_departamento" style="width: 340px; cursor: pointer;">
+                        <option value="1">Seleccionar--</option>
+                        <option value="2">Alta Verapaz</option>
+                        <option value="3">Baja Verapaz</option>
+                        <option value="4">Chimaltenango</option>
+                        <option value="5">Chiquimula</option>
+                        <option value="6">El Progreso</option>
+                        <option value="7">Escuintla</option>
+                        <option value="8">Guatemala</option>
+                        <option value="9">Huehuetenango</option>
+                        <option value="10">Izabal</option>
+                        <option value="11">Jalapa</option>
+                        <option value="12">Jutiapa</option>
+                        <option value="13">Peten</option>
+                        <option value="14">Quetzaltenango</option>
+                        <option value="15">Quiche</option>
+                        <option value="16">Retalhuleu</option>
+                        <option value="17">Sacatepequez</option>
+                        <option value="18">San Marcos</option>
+                        <option value="19">Santa Rosa</option>
+                        <option value="20">Sololá</option>
+                        <option value="21">Suchitepequez</option>
+                        <option value="22">Totonicapan</option>
+                        <option value="23">Zacapa</option>
+                        
+
+                     </select>
+                </p>
+                
+                
+                
+                <p>
+                    <input type="checkbox" style="cursor: pointer;">Desep Recibir Ofertas
+                    <br>
+                    <input type="checkbox" style="cursor: pointer;">Desep Recibir Noticias
+                </p>
+                
+                <p class="btn-enviar" >
+                    <input class="enviar" type="submit" name="btn_enviar" value="Enviar" onclick="cambiaColor()">
+                </p>
+                    
+                
+            </form>
+        </div>
+        <br>
+        <hr>
+    </div>
+    <div class="pie-de-pagina">
+        <p>Creado por: Joselyn Mendoza</p>
+    </div>
+</body>
+</html>

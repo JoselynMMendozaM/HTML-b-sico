@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="encabezado">
+        <p>HTML básico <br>
+            INTECAP – CENTRO TICS
+        </p>
+
+        <h1>TABLAS</h1>
+
+    </div>
+    <div class="content">
+        <hr>
+        <div>
+            <table style="margin: auto; width: 60%;">
+                <tr>
+                    <td> <a href="index.html"><input class="btn-enlace" type="button" value="ELEMENTOS MULTIMEDIA"></a></td>
+                    <td><a href="tablas.html"><input class="btn-enlace" type="button" value="TABLAS"></a></td>
+                    <td><a href="listas.html"><input class="btn-enlace" type="button" value="LISTAS"></a></td>
+                    <td><a href="formularios.html"><input class="btn-enlace" type="button" value="FORMULARIOS"></a></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p style="margin-left: 10%;">TABLA DE DATOS</p>
+            <table border="2" style="margin: auto; width: 70%; text-align: center;">
+                <thead style="background-color: rgb(193, 212, 212);">
+                    <tr>
+                        
+                        <th><b>Código</b></th>
+                        <th><b>Nombre</b></th>
+                        <th><b>Apellido</b></th>
+                        <th><b>Correo Electrónico</b></th>
+                        <th><b>Teléfono</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pablo</td>
+                        <td>Picasso</td>
+                        <td>monalisa1519@gmail.com</td>
+                        <td>54623518</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Leonardo</td>
+                        <td>Da Vinci</td>
+                        <td>guernica1973@gmail.com</td>
+                        <td>52653898</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Vicent</td>
+                        <td>Van Gogh</td>
+                        <td>nocheestrellada1890@gmail.com</td>
+                        <td>55784469</td>
+                    <tr>
+                        <td>4</td>
+                        <td>Claude</td>
+                        <td>Monet</td>
+                        <td>solnaciente1926@gmail.com</td>
+                        <td>51664582</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div>
+            <p style="margin-left: 10%;">TABLA 2</p>
+            <table border="2" style="margin: auto; width: 60%;" >
+                <tr>
+                    <td colspan="10" style="background-color: rgb(193, 212, 212); text-align: center;"><b>Combinar Celdas en Tablas</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td rowspan="2" colspan="5">4</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+    </div>
+    <div class="pie-de-pagina">
+        <p>Creado por: Joselyn Mendoza</p>
+    </div>
+</body>
+</html>
